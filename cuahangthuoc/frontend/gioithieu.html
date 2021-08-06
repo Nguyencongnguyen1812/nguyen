@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quầy thuốc tre xinh</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+        * {
+            margin: 0px;
+            padding: 0px;
+            list-style-type: none;
+        }
+        
+        body {
+            font-family: sans-serif;
+            margin-right-left: 50px;
+        }
+        
+        #dautien {
+            width: 100%;
+            height: 80px;
+        }
+        
+        .logomanu {
+            width: 100%;
+            margin: 0px auto;
+            height: 111px;
+            background-color: #3e9e5b;
+            color: white;
+        }
+        
+        #phandau ul li {
+            list-style: none;
+        }
+        
+        .logo {
+            width: 100px;
+            float: left;
+            margin-left: 20px;
+            margin-top: 10px;
+            font-size: 20px;
+            color: red;
+        }
+        
+        .batdau {
+            padding: 5 10px;
+        }
+        
+        #batdau {
+            list-style-type: none;
+        }
+        
+        .phai {
+            border: 1px solid #d9d9d4;
+            background-color: #3e9e5b;
+            float: right;
+            margin-right: 10px;
+            padding: 5px;
+            margin-top: 15px;
+        }
+        
+        .menu {
+            clear: left;
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            margin-top: 40px;
+            margin-left: 40px;
+            display: block;
+        }
+        
+        .menu ul li {
+            float: left;
+        }
+        
+        .menu ul li a {
+            text-decoration: none;
+            display: block;
+            color: #fff;
+            padding: 0px 10px 0px 10px;
+        }
+        
+        .menu ul li a.active {
+            background-color: blue;
+        }
+        
+        a:hover {
+            color: white;
+            background-color: #402975;
+        }
+        
+        #background img {
+            width: 100%;
+            height: 500px;
+            margin-top: 0px;
+            padding: 0px;
+        }
+        
+        .dichvu {
+            color: white;
+            border: 1px;
+            float: left;
+            margin-left: 25%;
+            margin-top: 30px;
+        }
+        
+        .dichvu li {
+            font-size: 20px;
+            padding: 20px;
+            float: left;
+            display: inline-block;
+            margin-left: 30px;
+        }
+        
+        .dichvu li p {
+            font-size: small;
+        }
+        
+        #sanpham1 {
+            margin: 0px auto;
+            height: 300px;
+            width: 1000px;
+            border: 1px solid rgb(17, 72, 145);
+            margin-top: 150px;
+        }
+        
+        #sanpham1 .tieude {
+            margin: 0px auto;
+            height: 80px;
+            width: 1000px;
+            border: 1px solid rgb(128, 128, 128);
+        }
+        
+        #sanpham1 .tieude li {
+            list-style: none;
+            float: left;
+            padding: 20px 10px 20px 10px;
+            font-size: 20px;
+        }
+        
+        #sanpham1 img {
+            display: block;
+            float: left;
+            clear: right;
+            height: 150px;
+            width: 150px;
+            margin: 20px 50px 0px 50px;
+        }
+        
+        #sanpham1 p {
+            margin: 0px 10px 0px 75px;
+            font-size: 20px;
+        }
+        
+        #sanpham1 li {
+            list-style: none;
+            float: left;
+        }
+        
+        #het {
+            background: #00000;
+            margin-top: 250px;
+            width: 1000px;
+        }
+        
+        .footer {
+            width: 100%;
+            background-color: white;
+            min-height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="dautien">
+        <div class="logomanu">
+            <div class="logo">
+                <img src="http://www.trexinh.vn/uploaded/logo/logo.png">
+            </div>
+            <div class="batdau">
+                <ul>
+                    <div class="phai">Giỏ Hàng</div>
+                    <h3>QUẦY THUỐC TRE XINH</h3>
+                </ul>
+            </div>
+            <div class="menu">
+                <ul>
+
+                    <li><a href="gioithieu.html" title="Home">Trang Chủ</a></li>
+                    <li><a href="/frontend/products.php" title="Thuốc">Thuốc Thú Ý</a></li>
+                    <!-- // <li><a href="#" title="Tin Tức">Loại Thuốc<select style="background-color:#3e9e5b "></select></a></li> -->
+                    <li><a href="danhsachsp.php" title="Thức Ăn">Thức Ăn Chăn Nuôi</a></li>
+                    <li><a href="" title="Hỗ trợ">Hỗ trợ</a></li>
+                    <li><a href="#" title="Góc tư vấn">Góc tư vấn</a></li>
+                    <li style="float: right; margin-right: 30px;"><a href="cart.php" title="giỏ hàng">cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="background">
+        <img src="http://sohanews.sohacdn.com/2020/3/20/meo-15847141170441414849736.jpg">
+        <div id="giua">
+            <div class="dichvu">
+                <nav>
+                    <li style="background-color: blue;">Vận chuyển toàn quốc
+                        <p>Phí ship từ 20-50k</p>
+                    </li>
+                    <!-- <li style="background-color: red">Bảo hành
+                    <p>3 Tháng kể từ khi mua hàng</p>
+                </li> -->
+                    <li style="background-color: green">Hỗ trợ 24/7
+                        <p>...</p>
+                    </li>
+                    <li style="background-color:rgb(70, 70, 62) ">Tư vấn
+                        <p>...</p>
+                    </li>
+                </nav>
+            </div>
+        </div>
+        <div id="sanpham1">
+            <div class="tieude">
+                <ul>
+                    <li style="font-size: 25px;"><b> SẢN PHẨM </b></li>
+                </ul>
+            </div>
+            <div class="mathang">
+                <ul>
+                    <li><img src="https://moh.gov.vn/image/journal/article?img_id=776219&t=1622321215179">
+                        <p>vaccine</p>
+                        <p style="color: orange;"></p>
+                    </li>
+                    <li><img src="https://www.healcentral.org/wp-content/uploads/2020/08/khang_sinh.jpg">
+                        <p>thuốc kháng sinh</p>
+                        <p style="color: orange;"></p>
+                    </li>
+                    <li><img src="https://goldenchoice.com.vn/wp-content/uploads/2020/07/thuoc-tiem-tranh-thai.jpg">
+                        <p>thuốc tiêm</p>
+                        <p style="color: orange;"></p>
+                    </li>
+                    <li><img src="https://vinmec-prod.s3.amazonaws.com/images/20191018_141843_023212_khang-sinh.max-800x800.jpg">
+                        <p>thuốc viên</p>
+                        <p style="color: orange;"></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="sanpham1" style="margin-top:50px; ">
+            <div class="tieude">
+                <ul>
+                    <li style="font-size: 25px;"><b>ĐIỀU TRỊ BỆNH</b></li>
+                </ul>
+            </div>
+            <div class="banhang">
+                <ul>
+                    <li><img src="https://traigiongthuha.com/uploads/cache/news/news_529.jpg">
+                        <p> ĐƯỜNG TIÊU HÓA</p>
+                        <p style="color: orange;"></p>
+                    </li>
+                    <li><img src="https://vnn-imgs-f.vgcloud.vn/2020/12/20/05/nuoi-lon-2.jpg">
+                        <p>BỆNH NGIỄM CHÙNG</p>
+                        <p style="color: orange;"></p>
+                    </li>
+                    <li><img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/0DBA/production/_104441530_d748a167-0790-43f0-b6a1-f3d0636fc98d.jpg">
+                        <p>DINH DƯỠNG</p>
+                        <p style="color: orange;"></p>
+                    </li>
+                    <!-- <li><img src="http://www.trexinh.vn/temp/-uploaded-san-pham_san-go-janmi_0_cr_420x280.jpg">
+                    <p>Nội Thất</p>
+                    <p style="color: orange;">1000000vnd</p>
+                </li> -->
+                </ul>
+            </div>
+
+            <div id="het">
+                <div class="footer">
+                    Giới Thiệu
+                    <p>
+                        <h2 style="color: #33CC33">Quầy thuốc tre xinh</h2>
+                    </p>
+                    Quầy thuốc tre xinh là trang bán thuốc thú y trực tuyến uy tín số 1 Việt Nam. Chúng tôi cung cấp các loại thuốc dành cho vật nuôi với đầy đủ giấy phép DKKD, giấy chứng nhận chất lượng. Các sản phẩm có nguồn gốc, xuất xứ
+                    rõ ràng, đảm bảo chất lượng và uy tín. Các loại thuốc đến từ các công ty sản xuất thuốc uy tín hàng đầu, mức giá tốt, phù hợp với nhu cầu người chăn nuôi, như Vitapha... Người chăn nuôi hoàn toàn có
+                    thể tin tưởng vào chất lượng sản phẩm do Thuốc Thú Y Việt Nam cung cấp Chúng tôi có đội ngũ tư vấn 24/7, sẵn sàng hỗ trợ kiến thức, kinh nghiệm sử dụng thuốc trong các trường hợp khẩn cấp. Chính sách
+                    mua hàng dễ dàng: Miễn phí vận chuyển thuốc toàn quốc với tất cả các đơn hàng. Để đàn gia cầm, gia súc phát triển khỏe mạnh, tăng cường thể lực, sức khỏe tốt, hãy tin tưởng vào nguồn thuốc Thuốc Thú
+                    Y Việt Nam cung cấp. Thuốc Thú Y Việt Nam mong muốn và cam kết cùng người chăn nuôi phát huy, tăng trưởng đàn gia súc gia cầm trong từng hộ gia đình, từ đó năng cao năng suất, chất lượng nền chăn nuôi Việt
+                    Nam. Thuốc Thú Y Việt Nam
+                    <br>
+                    <br>
+                    <b style="color: #000000">Ghi chú</b>
+                    <br>
+                    <i>Thông tin chi tiết:</i>
+                    <br> Địa chỉ: số 11, ngõ 2 , Phạm Văn Đồng, Mai Dịch, Cầu Giấy, Hà Nội.
+                    <br>
+                    <u style="color: #00FF00">    Tel:0327761587   012344656 </u>
+                    <br>
+                    <u style="color: #00FF00">  Email: nguyenwt3@gmail.com </u>
+                    <br>
+                    <small title="" style="color: #00FF00">Website: www.trexinh.vn</small>
+                    <br>
+                    <u style="color: black">Xem Thêm</u>
+                </div>
+            </div>
+</body>
+
+</html>

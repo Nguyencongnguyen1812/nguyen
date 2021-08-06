@@ -1,0 +1,62 @@
+/*  reset margin padding */
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header {
+    height: 500px;
+    width: 100%;
+    background: url('./img/banner.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.header .menu {
+    text-align: right;
+}
+
+.header .menu a {
+    margin: 10px;
+    padding: 7px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.header .menu .sign {
+    margin-right: 70px;
+    border-radius: 20px;
+    border: 1px green solid;
+}
+
+.header .logo {
+    margin-top: 20px;
+    background: url('./img/hapoERP.png') center no-repeat;
+    height: 100px;
+}
+.header .item{
+    height: 150px;
+    text-align: center;
+}
+.header .item div {
+    display: inline-block;
+    font-size: 30px;
+    width: 33%;
+}
+.header .item img {
+    width: 30px;
+}
+
+.header .text {
+    text-align: center;
+    height: 50px;
+}
+
+.header .text button {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 2px solid green;
+    border-radius: 20px;
+    background-color: green;
+    cursor: pointer;
+}

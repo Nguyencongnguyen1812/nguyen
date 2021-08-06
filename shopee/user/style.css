@@ -1,0 +1,214 @@
+ .header {
+     background-color: black;
+     top: 0;
+     position: fixed;
+     width: 100%;
+     left: 0;
+     max-height: 30px;
+     
+ }
+
+ #menu ul li a {
+     color: rgb(245, 236, 236);
+     text-decoration: none;
+     padding: 0 10px;
+     height: 46px;
+     max-height: 30px;
+     top: 0;
+ }
+
+ #menu {
+     background-color: black;
+     display: inline-block;
+     max-height: 30px;
+ }
+
+ li {
+     list-style-type: none;
+ }
+
+ #menu .ul1 {
+     margin-top: 0;
+ }
+
+ #menu .ul1 li {
+     background-color: black;
+     display: inline-block;
+     padding: 0 1px;
+     font-size: 12px;
+     top: 0px;
+     max-height: 30px;
+     line-height: 30px;
+     width:100px;
+ }
+
+ #menu .ul2 {
+     background-color: blanchedalmond;
+     position: absolute;
+     width: 100px;
+     display: none;
+     top: 100%;
+     padding-left: 0;
+ }
+#menu li:hover .ul2{
+    display: block;
+}
+
+ #menu li:hover {
+     color: rgb(220, 23, 23);
+     background-color: rgb(72, 0, 255);
+ }
+
+ .header .seach {
+     float: right;
+     color: blanchedalmond;
+     height: 30px;
+     max-height: 30px;
+     width: 40px;
+ }
+
+ .header .seach .ti-search {
+     line-height: 15px;
+     left: 30px;
+     font-size: 10px;
+     margin-left: 10px;
+     max-height: 30px;
+ }
+
+ .header .seach:hover {
+     background-color: red;
+ }
+
+ #sdile {
+     top: 20px;
+     background: url("https://file.vfo.vn/hinh/2013/6/nhac-tre-hay-nhat-hien-nay.jpg") top center / cover no-repeat;
+     padding-top: 35%;
+     z-index: 3;
+     padding-left: 0;
+     padding-right: 0;
+ }
+
+ #sdile .text {
+     position: relative;
+     font-size: 30px;
+     bottom: 20px;
+     color: blanchedalmond;
+     left: 45%;
+     max-height: 70px;
+     max-width: 145px;
+ }
+
+ #sdile .text .text2 {
+     margin-left: 30px;
+ }
+
+ #content {
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ #content .content1 {
+     margin-left: 300px;
+ }
+
+ #content .content1 p {
+     margin-left: 10px;
+ }
+
+ #content .item .item1 {
+     display: inline-block;
+     margin-left: 60px;
+     height: 350px;
+     width: 200px;
+ }
+
+ #content .item .item1 img {
+     height: 300px;
+     width: 200px;
+ }
+
+ #content .item .item1 p {
+     padding-left: 60px;
+ }
+
+ #tour {
+     background-color: black;
+     color: blanchedalmond;
+ }
+
+ #tour .content .content1 {
+     padding-top: 100px;
+     text-align: center;
+ }
+
+ #tour .content .content1 ul {
+     background-color: blanchedalmond;
+     border-bottom: rgb(19, 2, 2);
+     font-size: 30px;
+     color: black;
+     width: 70%;
+     padding-left: 0;
+     margin-left: 15%;
+     text-align: left;
+ }
+
+ #tour .content .item {
+     text-align: center;
+ }
+
+ #tour li {
+     border: 1px solid black;
+ }
+
+ #tour .content .item1 {
+     display: inline-block;
+     width: 180px;
+     padding-right: 50px;
+     text-align: left;
+ }
+
+ .contact {
+     text-align: center;
+     margin-top: 100px;
+ }
+
+ .contact .contactinput1 {
+     display: inline-block;
+     margin-top: 50px;
+     size: 50px;
+     text-align: left;
+     font-size: 25px;
+ }
+
+ .contact input {
+     padding: 10px;
+     margin-bottom: 10px;
+     border: 1px solid black;
+ }
+
+ .contact button {
+     margin-top: -10px;
+     float: right;
+ }
+
+ .contact .contactinput1 form {
+     text-align: right;
+     font-size: 25px;
+ }
+
+ #map .img {
+     background-color: red;
+     background: url("map.jpg");
+     height: 500px;
+     margin-top: 100px;
+ }
+
+ #map .item {
+     text-align: center;
+ }
+
+ #map .item i {
+     display: inline-block;
+     line-height: 100px;
+     font-size: 20px;
+ }

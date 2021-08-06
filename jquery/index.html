@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf8">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="div">
+        <div class="div2">
+            1.One big advantage of using the hosted jQuery from Google: Many users already have downloaded jQuery from Google when visiting another site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also,
+            most CDN's will make sure that once a user requests a file from it,
+            <p>One big advantage of using<b>One big advantage of using</b></p>
+        </div>
+
+        <div class="div3">
+            2.One big advantage of using the hosted jQuery from Google: Many users already have downloaded jQuery from Google when visiting another site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also,
+            most CDN's will make sure that once a user requests a file from it,
+        </div>
+
+        <div class="div4">
+            3.One big advantage of using the hosted jQuery from Google: Many users already have downloaded jQuery from Google when visiting another site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also,
+            most CDN's will make sure that once a user requests a file from it,
+            <ul>
+                <li> li 1</li>
+                <li>li2</li>
+                <li>li3 </li>
+            </ul>
+        </div>
+
+        <div class="div5">
+            <p>One big advantage of using the hosted jQuery from Google: Many users already have downloaded jQuery from Google when visiting another site</p>
+        </div>
+        <div class="accodion">
+            <h3>accordion thò thụt </h3>
+            <div>One big advantage of using the hosted jQuery from Google:</div>
+            <h3>accordion thò thụt 1 </h3>
+            <div>One big advantage of using the hosted jQuery from Google:</div>
+        </div>
+        <button id="but1" class="but1"> click </button>
+
+    </div>
+</body>
+<script type="text/javascript">
+    $(document).ready(function() {
+            $('.but1').click(function() {
+                //ẩn
+                $('.div3').hide();
+                // ẩn trong thẻ div
+                $(' div p').hide();
+                // ẩn trrn dưới (first, last) con chứ thẻ khác
+                $('div:first').hide()
+                $('.div1 p:has(b)').hide();
+                $('div ul li:nth-child(3)').hide();
+                //css
+                $('.div5').css({
+                    "color": "red",
+                    "border": "3px solid red"
+                });
+                //html thay thế div3 bàng thẻ b
+                $('.div3').html('<b> hello</b>');
+                //ẩn hiện
+                $('.div5').fadeToggle(2000);
+                // thuộc tính sdile
+                $('.div5').slideToggle(2000);
+
+            })
+            $('.div5').hover(
+                    function() {
+                        $('.div5').css("color", 'red');
+                    },
+                    function() {
+                        $('.div5').css("color", 'blur');
+                    },
+                    function() {
+                        $(' .div5 p').show();
+                    },
+                    function() {
+                        $(' .div5 p').hide();
+                    })
+                //thò thụt
+            $('.accodion').accordion({
+                collapsible: true,
+                icon: {
+                    header: "ui-icon-plus",
+                    activeHeader: "ui-icon-minus"
+                }
+            });
+        }
+
+    )
+</script>
+
+
+<div class="menu">
+    <ul class="listmenu">
+        <li> đồ điện
+            <li>tivi</li>
+            <li>tủ lạnh</li>
+            <li>điều hóa</li>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.listmenu').menu();
+    })
+</script>
+
+</html>

@@ -1,0 +1,62 @@
+.carousel-inner {
+    max-height: 400px;
+}
+
+.menu {
+    position: fixed;
+}
+
+.dropdown ul li:hover .dropdown-men {
+    display: block;
+}
+
+.danhmuc {
+    width: 20%;
+    margin-top: 55PX;
+    display: flex;
+    list-style-position: inside;
+    float: left;
+}
+
+.carousel {
+    width: 80%;
+    float: right;
+    margin-top: 40px;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+}
+
+.danhmuc ul {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.cuoitrang {
+    margin-top: 100px;
+    background-color: brown;
+    width: 100%;
+    height: 200px;
+}
+
+.footder {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.body {
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table {
+    width: 80%;
+    float: right;
+    margin-top: 100px;
+}
